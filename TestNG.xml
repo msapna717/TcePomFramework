@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" verbose="1" name="TCE WEB SUITE" parallel="tests">
+  <test name="Login With UserID Password Test">
+    <classes>
+      <class name="com.tce.qa.testcases.LoginWithUserIDPasswordTest"/>
+    </classes>
+  </test>
+</suite> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TCE WEB SUITE]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="Login With UserID Password Test(failed)" verbose="0">
+    <classes>
+      <class name="com.tce.qa.testcases.LoginWithUserIDPasswordTest">
+        <methods>
+          <include name="loginWithUserIDPasswordPageLogo"/>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="loginWithUserIDPassword"/>
+          <include name="loginWithUserIDPasswordPageTitle"/>
+        </methods>
+      </class> <!-- com.tce.qa.testcases.LoginWithUserIDPasswordTest -->
+    </classes>
+  </test> <!-- Login With UserID Password Test(failed) -->
+</suite> <!-- Failed suite [TCE WEB SUITE] -->

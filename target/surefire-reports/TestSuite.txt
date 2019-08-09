@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 0.505 s <<< FAILURE! - in TestSuite
+setup(com.tce.qa.testcases.LoginWithUserIDPasswordTest)  Time elapsed: 0.314 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.tce.qa.testcases.LoginWithUserIDPasswordTest.setup(LoginWithUserIDPasswordTest.java:20)
+
